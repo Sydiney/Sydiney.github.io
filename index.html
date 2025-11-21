@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sydney Sudário - Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background com blur progressivo -->
+    <div class="background-container">
+        <div class="background-image" id="bgImage"></div>
+        <div class="background-overlay" id="bgOverlay"></div>
+    </div>
+
+    <!-- Navegação com glassmorphism -->
+    <nav class="navigation" id="mainNav">
+        <a href="#home" class="nav-item active" data-section="home">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#resumo" class="nav-item" data-section="resumo">
+            <i class="fas fa-file-alt"></i>
+            <span>Resumo</span>
+        </a>
+        <a href="#experiencia" class="nav-item" data-section="experiencia">
+            <i class="fas fa-briefcase"></i>
+            <span>Experiência</span>
+        </a>
+        <a href="#habilidades" class="nav-item" data-section="habilidades">
+            <i class="fas fa-bolt"></i>
+            <span>Habilidades</span>
+        </a>
+        <a href="#links" class="nav-item" data-section="links">
+            <i class="fas fa-link"></i>
+            <span>Links</span>
+        </a>
+    </nav>
+
+    <!-- Conteúdo principal -->
+    <main class="main-content">
+        <!-- Seção Home -->
+        <section id="home" class="section active">
+            <div class="home-content">
+                <div class="badge">Disponível para trabalho</div>
+                <div class="title-container">
+                    <p class="subtitle">WEB DEVELOPER</p>
+                    <h1 class="main-title">
+                        <span class="title-line">Sydney</span>
+                        <span class="title-line">Sudário</span>
+                    </h1>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>sydneysudario5@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+55 99 99194-9897</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <span>linkedin.com/in/sydney</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Maranhão, BR</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Resumo -->
+        <section id="resumo" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Resumo Profissional</h2>
+                <div class="resume-card">
+                    <p class="resume-text">
+                        Desenvolvedor web apaixonado por criar experiências digitais únicas e funcionais. 
+                        Com expertise em tecnologias modernas, busco sempre entregar soluções inovadoras 
+                        que combinam design elegante com performance excepcional.
+                    </p>
+                    <div class="resume-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h3>Clean Code</h3>
+                                <p>Código limpo e bem documentado</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <div>
+                                <h3>Responsive Design</h3>
+                                <p>Design adaptável para todos os dispositivos</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h3>Performance</h3>
+                                <p>Otimização e carregamento rápido</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Experiência -->
+        <section id="experiencia" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Experiência</h2>
+                <div class="experience-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2025 - Presente</span>
+                            <h3>Desenvolvedor Web Full Stack</h3>
+                            <p class="timeline-company">Freelancer</p>
+                            <p class="timeline-description">
+                                Desenvolvimento de aplicações web completas utilizando as mais modernas 
+                                tecnologias do mercado. Foco em UI/UX e performance.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">TypeScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">2022 - 2023</span>
+                            <h3>Desenvolvedor Front-end</h3>
+                            <p class="timeline-company">Projetos Pessoais</p>
+                            <p class="timeline-description">
+                                Criação de interfaces modernas e responsivas, com foco em experiência 
+                                do usuário e acessibilidade.
+                            </p>
+                            <div class="timeline-tags">
+                                <span class="tag">HTML5</span>
+                                <span class="tag">CSS3</span>
+                                <span class="tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Habilidades -->
+        <section id="habilidades" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Habilidades</h2>
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>HTML5</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 95%"></div>
+                        </div>
+                        <span class="skill-percentage">95%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h3>CSS3</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 90%"></div>
+                        </div>
+                        <span class="skill-percentage">90%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-js"></i>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-react"></i>
+                        </div>
+                        <h3>React</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 80%"></div>
+                        </div>
+                        <span class="skill-percentage">80%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-node"></i>
+                        </div>
+                        <h3>Node.js</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 75%"></div>
+                        </div>
+                        <span class="skill-percentage">75%</span>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-icon">
+                            <i class="fab fa-git-alt"></i>
+                        </div>
+                        <h3>Git</h3>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="--progress: 85%"></div>
+                        </div>
+                        <span class="skill-percentage">85%</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Links -->
+        <section id="links" class="section">
+            <div class="section-content">
+                <h2 class="section-title">Links & Contato</h2>
+                <div class="links-grid">
+                    <a href="https://github.com/sydiney" target="_blank" class="link-card">
+                        <div class="link-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="link-info">
+                            <h3>GitHub</h3>
+                            <p>Veja meus projetos</p>
+                        </div>
+                        <i class="fas fa-arrow-right link-arrow"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/sydiney" target="_blank" class="link-card">
+                        <div class="link-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="link-info">
+                            <h3>LinkedIn</h3>
+                            <p>Conecte-se comigo</p>
+                        </div>
+                        <i class="fas fa-arrow-right link-arrow"></i>
+                    </a>
+                    <a href="mailto:sydneysudario@gmail.com" class="link-card">
+                        <div class="link-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="link-info">
+                            <h3>Email</h3>
+                            <p>sydneysudario@gmail.com</p>
+                        </div>
+                        <i class="fas fa-arrow-right link-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Partículas decorativas -->
+    <div class="particles" id="particles"></div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
